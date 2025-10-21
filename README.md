@@ -42,11 +42,11 @@ git clone https://github.com/username/user_management_api.git
 cd user_management_api 
 
 ### 2. Install Dependencies 
-npm install
+```bash npm install ``` 
 
 ### 3. Konfigurasi Environment ### 
 Buat file .env di root folder dengan isi:
-
+``` 
 PORT=5000
 DB_USER=your_postgres_user
 DB_PASSWORD=your_postgres_password
@@ -54,12 +54,12 @@ DB_NAME=user_management_db
 DB_HOST=localhost
 DB_PORT=5432
 JWT_SECRET=your_secret_key
-
+``` 
 ### 4. Jalankan Server ###  
-npm start
+``` npm start``` 
 
 // Atau jika menggunakan nodemon:
-npm run dev
+``` npm run dev``` 
 
 
 ## 🧾API Documentation (Postman)
