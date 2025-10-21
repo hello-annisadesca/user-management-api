@@ -1,0 +1,13 @@
+# Node
+node_modules/
+.env
+.env.local
+.DS_Store
+
+# Log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Postman
+*.postman_environment.json
